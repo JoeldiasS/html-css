@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de hover</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div > p {
+            display: none;
+            color: blueviolet;
+        }
+
+        div:hover > p {
+            display: block;
+            background-color: aqua;
+            width: 150px;
+        }
+
+        div:hover {
+            color: blue;
+        }
+
+        div#d1:hover {
+            background-color: lightgray;
+            box-shadow: 5px 5px 15px red;
+        }
+
+        div#d1 {
+            color: aquamarine;
+            background-color: rgb(56, 55, 55);
+            text-align: center;
+            width: 150px;
+            height: 150px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 15px black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mouse no texto abaixo</p>
+    <div>
+        Passe o mouse aqui
+        <p>Quero o tobinha da grazy hoje.</p>
+    </div> 
+    <P>Fim do exemplo.</P>
+    <div id="d1">01</div>
+</body>
+</html>

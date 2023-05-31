@@ -1,0 +1,50 @@
+body {
+    font: 1em Arial, Helvetica, sans-serif;
+    background-color: peachpuff;
+}
+
+header { 
+    color: rgb(81, 81, 246);
+    background-color: rgb(255, 140, 0);
+
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+
+    width: auto;
+    height: 100px;
+    margin: auto;
+    padding: 5px;
+    border: 2px solid;
+}
+
+article#caixa {
+    text-decoration: none;
+    color: rgb(255, 140, 0);
+    background-color: rgb(81, 81, 246);
+    width: 400px;
+    margin: 5px auto;
+    padding: 1px 10px;
+    box-shadow: 3px 5px 4px black;
+
+} 
+
+.caixa {
+    text-decoration: none;
+    color: rgb(255, 140, 0);
+    background-color: rgb(81, 81, 246);
+    width: 400px;
+    margin: 5px auto;
+    padding: 1px 10px 10px 10px;
+    box-shadow: 3px 5px 4px black;
+} 
+
+.caixa aside 
+
+aside {
+    background-color: snow;
+    width: 400px;
+    margin: 5px auto;
+    padding: 1px 10px;
+    box-shadow: 3px 5px 4px;
+}
+

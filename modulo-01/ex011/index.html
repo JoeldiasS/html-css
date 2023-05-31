@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="html.ico.png" type="image/x-icon">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes <br> ou simplismente aumente ou diminua o tamanho do seu navegador.</p>
+
+    <picture> <!-- para trabalhar com imagens de tamanhos diferentes-->
+        <source media="(max-width: 750px)" srcset="imagens/imagem-P.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/imagem-M.png" type="image/png">
+        <img src="imagens/imagem-G.png" alt="Imagem flexível">
+    </picture>
+    <h1>Reproduzindo Mídias</h1>
+    <p>Vamos aprender a reproduzir audios em HTML.</p>
+    <audio preload="metadata" controls loop>
+        <source src="midia/Yankee Doodle.mp3" type="audio/mpeg">
+        <source src="midia/Yankee Doodle.ogg" type="audio/ogg">
+        <source src="midia/Yankee Doodle.wav" type="audio/wav"><!--evite usar wav porque é muito pesado-->
+    </audio>
+</body>
+</html>

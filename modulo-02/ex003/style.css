@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    text-align: justify;
+} /* medidas absolutas
+    cm, mm, in, px
+                       ( recomendação da w3c, use px, em.)
+    medidas relativas
+    em, ex, rem, vw, vh
+    geralmente 16px é = 1em.  é mais indicado o em.
+  */
+

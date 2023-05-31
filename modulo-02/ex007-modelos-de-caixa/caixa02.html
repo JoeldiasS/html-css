@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {background-color: darkgray;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+            margin: 0;
+        } 
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+
+            border-radius: 5px;
+            box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.477);
+        }
+
+        main {
+            background-color: rgb(205, 204, 202);
+            padding: 10px;
+            margin: 10px;
+
+            border-radius: 0px 20px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.438);
+        }
+
+        nav {
+            background-color: rgb(118, 116, 116);
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.404);
+        }
+
+        nav > a {
+            text-decoration: none;
+            margin-right: 70px;
+        } 
+
+        nav > a:hover {
+            color: rgb(255, 54, 54);
+            background-color: rgb(77, 75, 75);
+        }
+
+        #assuntos {
+            padding: 10px;
+        }
+
+        #notícias { 
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        section > article {
+            background-color: rgb(224, 226, 228);
+            padding: 1px;
+            margin: 10px;
+        }
+
+        article > aside {
+            background-color: rgb(165, 162, 162);
+        }
+
+        footer {
+            color: aliceblue;
+            background-color: black;
+            text-align: center;
+            padding: 5px;
+            margin: 0;
+        }
+
+        footer > p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Canal no youtube</a>
+            <a href="#">Nos acompanhe também no twitter</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h2>O Brasil está morrendo?</h2>
+        </section>
+        <section id="notícias">
+            <h1>BRASIL</h1>
+            <article>
+                <h2>De mãos dadas com a Morte</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi modi suscipit perspiciatis ea assumenda ducimus officia animi repellendus quis provident, iure exercitationem saepe quibusdam hic quo, earum nihil ab cumque!</p>
+                <aside>
+                    <p>Escrito por Joel o estupendo.</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Joel Dias</p>
+        <p> &copy; Todos os direitos reservados</p>
+    </footer>
+
+</body>
+</html>
