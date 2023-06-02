@@ -45,6 +45,9 @@ a {
 
 a:hover {
     text-decoration: underline;
+    background-color: rgba(240, 248, 255, 0.319);
+    padding: 2px;
+    border-radius: 5px;
 }
 
 section {
@@ -56,6 +59,10 @@ section {
     font-size: 3.5vw;
 }
 
+section > p {
+    padding-bottom: 3em;
+}
+
 section.normal{
     background-color: white;
 }
@@ -63,12 +70,28 @@ section.normal{
 section.imagem {
     color: white;
     background-color: rgb(34, 33, 33);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.808);
+    background-attachment: fixed;
 }
 
 section.imagem > p {
     display: inline-block;
     padding: 10px;
-    background-color: rgb(44, 43, 43);
+    background-color: rgba(44, 43, 43, 0.648);
+    text-shadow: 2px 1px 0px black;
+}
+
+section#img01 {
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+
+}
+
+section#img02 {
+    background-image: url('../imagens/background002.jpg');
+    background-size: cover;
+    
 }
 
 footer {
